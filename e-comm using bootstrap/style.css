@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+
+}
+h1{
+font-size:2.5rem ;
+font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+h3 {
+    font-size:1.5rem ;
+    font-weight: 500;
+}
+h4{
+    font-size:1.3rem ;
+    font-weight: 400;
+}
+h5{
+    font-size:1.1rem ;
+    font-weight: 300;
+    color: black;
+
+}
+h6{
+    color: black;
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+
+    color:coral;
+   
+}
+hr{
+    background-color: rgb(187, 59, 13);
+    
+    width: 30px;
+    height: 2px;
+
+    
+}
+.star{
+    padding: 10px;
+}
+.star i{
+    font-size: 1rem;
+    color: goldenrod;
+}
+/* navbar */
+.navbar-brand img{
+    width: 70px;
+}
+.navbar{
+    font-size: 16px;
+    font-weight: 500;
+    top: 0;
+    left: 0;
+    /* box-shadow: 0 0 10px rgb(41, 37, 37); */
+    
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+    padding: 0 15px;
+    color: black;
+    transition: 0.3s ease;
+    
+
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link.active{
+    color: coral;
+
+}
+.navbar i{
+    font-size: 1.3rem;
+
+
+}
+
+
+#home{
+    background-image:url("home/banner.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:top 80px  center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+#home span{
+    color: coral
+}
+.navbar .icon .navbar-nav .nav-item {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    
+
+}
+.navbar .d-flex .me-2{
+   width: 20rem;
+   background-color: aliceblue
+
+}
+.navbar .d-flex{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+    
+}
+.navbar .d-flex .me-2 .btn i{
+    color: red;
+}
+
+/* mobile navbar */
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    font-weight: 700;
+    color: black;
+    transition:  0.3s ease;
+
+}
+#bar:hover{
+    color: coral;
+}
+
+#branding .one img{
+    width: 35rem;
+    height: 35rem;
+   
+    
+}
+#branding .one .details{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+#branding .one .details:hover{
+    cursor: pointer;
+    background-color: rgba(247, 160, 150, 0.466);
+}
+#branding .one .details button{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    color: rgb(2, 7, 4);
+    border:1px solid black ;
+    padding: 2.5px ;
+    transform: translateY(70px);
+    transition: 0.3s ease;
+    margin: 10px;
+}
+#branding .one .details button:hover{
+    color: white;
+    border: 1px solid white;
+}
+#one {
+    display: flex;
+    text-align: center;
+    justify-content: start;
+    
+}
+#branding > div > div:nth-child(2) > div > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#branding > div > div:nth-child(3) > div > h2 {
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+#featured img{
+    width: 18rem;
+    height: 22rem;
+}
+/* items */
+.items {
+    cursor: pointer;
+    padding: 20px;
+
+}
+.items .buy-item{
+    background: coral;
+    transform: translate(20px);
+    opacity: 0;
+    transition: 0.3s ease;
+
+}
+.items:hover .buy-item{
+    background: coral;
+    transform: translate(0);
+    opacity: 1;
+
+}
+footer{
+    background-color: #222222;
+    color: white;
+}
+
+footer img{
+    width: 25%;
+}
+footer li{
+    padding: 5px;
+}
+footer li a{
+    color:rgb(182, 181, 181);
+    outline: none;
+}
+footer li a:hover{
+    color:white;
+}
+footer p {
+    color:rgb(182, 181, 181);
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+footer  .copyright a{
+    color: rgb(0, 0, 0);
+    background-color:white ;
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    transition: 0.3s ease;
+    margin: 0 5px;
+
+}
+footer  .copyright a:hover {
+    background-color: coral;
+    color: white;
+
+}
+footer img{
+    padding: 5px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
